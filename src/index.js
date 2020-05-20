@@ -1,4 +1,3 @@
-import _ from 'lodash';
 import './style.css';
 import './index.html';
 
@@ -13,9 +12,3 @@ function component() {
 }
   
 document.body.appendChild(component());
-
-if (module.hot) {
-  module.hot.accept('./index.js', function() {
-    console.log('Accepting the updated index.js module!');
-  })
-}
